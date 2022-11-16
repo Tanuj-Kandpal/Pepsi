@@ -67,7 +67,7 @@ html {
   gap: 12rem;
   padding: 1rem;
   justify-content: center;
-  background-image: url("https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png");
+  /* background-image: url("https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png"); */
   background-repeat: no-repeat;
 }
 
@@ -116,4 +116,131 @@ html {
 }
 .container-margin {
   padding: 5rem;
+}
+.c3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.c3-right {
+  /* display: grid; */
+  grid-column: 2/3;
+  /* max-width: 90%; */
+}
+.left-img {
+  display: block;
+  width: 45rem;
+}
+.c3-left {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  align-self: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem;
+}
+.img-1-text {
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 2rem;
+  background-color: #1437bf;
+  text-align: center;
+}
+.img-2 {
+  display: block;
+  grid-row: 2/3;
+}
+.pepsi-mango-text {
+  text-transform: uppercase;
+  color: #ffff;
+  font-weight: 900;
+  font-size: 7rem;
+}
+.pepsi-mango {
+  width: 90rem;
+}
+.c4 {
+  display: flex;
+}
+.c4-back-img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+
+  /* display: block; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+}
+.product-img {
+  display: flex;
+}
+.pepsi-mango-img {
+  display: block;
+}
+.c4-products {
+  display: flex;
+  flex-direction: column;
+  /* padding:  9rem 8rem 9rem; */
+}
+
+.product-c5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pepsi-can {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 4em;
+}
+.right-img {
+  width: 55rem;
+}
+.product-c6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  /* height: 56rem; */
+  gap: 30rem;
+  width: 100%;
+  /* min-height: 33rem; */
+  padding: 10rem;
+}
+.p16-para {
+  color: #e5eff9;
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 6rem;
+  letter-spacing: -3px;
+  /* font-weight: 300; */
+  margin-bottom: -1rem;
+}
+.pl6-text {
+  margin-bottom: 3rem;
+}
+.p16-pepsi-text {
+  /* text-align: center; */
+  color: #e5eff9;
+  font-size: 1.5rem;
+}
+.pl6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.pl6-heading {
+  max-width: 42rem;
+}
+
+.pl6-button {
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 2px solid white;
+  border-radius: 10rem;
+  padding: 4px 40px 4px 40px;
 }
